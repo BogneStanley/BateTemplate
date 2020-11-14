@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+}
+.cont{
+    background-image: url("../img/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.slog{
+    color: azure; 
+    text-align: right;
+}
+
+@media(max-width : 1000px){
+    .slog{
+        text-align: center;
+    }
+        
+}
+
+.carousel-item{
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.align-content-to-center{
+    padding: 15px;
+    position: relative;
+    background-color: rgb(219, 82, 82);
+    width: max-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
