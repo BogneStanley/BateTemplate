@@ -1,25 +1,6 @@
 body{
     overflow-x: hidden;
 }
-.cont{
-    background-image: url("../img/bg1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-}
-
-.slog{
-    color: azure; 
-    text-align: right;
-}
-
-@media(max-width : 1000px){
-    .slog{
-        text-align: center;
-    }
-        
-}
 
 .carousel-item{
     height: 90vh;
